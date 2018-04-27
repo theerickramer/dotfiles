@@ -39,7 +39,8 @@ Plugin 'Shougo/vimproc.vim'
 Plugin 'highwaynoise/chuck.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ervandew/supertab'
-
+Plugin 'tpope/vim-surround'
+Plugin 'mattn/webapi-vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -60,17 +61,24 @@ set cursorline
 set hlsearch " highlight search matches
 set incsearch " show search matches as you type
 set tabstop=2
+set shiftwidth=2
 " line numbers
 set number
 " emmet
 let g:user_emmet_leader_key='<C-E>'
+let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('~/.dotfiles/.emmet-vim.config.json')), "\n"))
 " Prettier
 " when running at every change you may want to disable quickfix
 let g:prettier#quickfix_enabled = 0
 let g:prettier#autoformat = 0
 " auto Prettier on Insert
-autocmd BufWritePre,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql PrettierAsync
+" autocmd BufWritePre,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql PrettierAsync
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 " nerdcommenter
 let g:NERDSpaceDelims = 1
+" indent html - gg=G indents all, or select text and =
+filetype indent on
+set filetype=html
+set smartindent
+
