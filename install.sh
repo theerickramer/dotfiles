@@ -2,6 +2,6 @@
 echo 'source ~./dotfiles/.alias.sh' >> ~/.bash_profile
 echo 'source ~/.dotfiles/.prompt.sh' >> ~/.bash_profile
 
-# symlink vim
+# symlinks
 rm ~/.vimrc && ln ~/.dotfiles/.vimrc ~/.vimrc
-
+rm ~/Library/Application Support/Code/User/settings.json && ln ~/.dotfiles/.vs-code-settings.json ~/Library/Application Support/Code/User/settings.json
