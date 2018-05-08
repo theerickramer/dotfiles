@@ -30,3 +30,5 @@ alias server="python -m SimpleHTTPServer 3000"
 # system
 alias flush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
 alias lsa="ls -a"
+# misc
+alias bs="browser-sync start --server --files"
