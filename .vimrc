@@ -41,6 +41,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-surround'
 Plugin 'mattn/webapi-vim'
+Plugin 'posva/vim-vue'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
