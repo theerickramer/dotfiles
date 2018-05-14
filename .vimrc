@@ -63,6 +63,8 @@ set hlsearch " highlight search matches
 set incsearch " show search matches as you type
 set tabstop=2
 set shiftwidth=2
+set expandtab
+set smarttab
 " line numbers
 set number
 " emmet
