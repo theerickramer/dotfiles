@@ -52,6 +52,7 @@ ms-python.python
 ms-vscode.sublime-keybindings
 ms-vscode.Theme-MarkdownKit
 ms-vscode.vs-keybindings
+ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 oysun.vuehelper
 qinjia.view-in-browser
