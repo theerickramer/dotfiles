@@ -1,5 +1,5 @@
 # source dotfiles
-echo 'source ~./dotfiles/.alias.sh' >> ~/.bash_profile
+echo 'source ~/.dotfiles/.alias.sh' >> ~/.bash_profile
 echo 'source ~/.dotfiles/.prompt.sh' >> ~/.bash_profile
 
 # symlinks
