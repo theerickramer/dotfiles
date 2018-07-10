@@ -13,6 +13,7 @@ alefragnani.Bookmarks
 alissoncfr.vdf
 andischerer.theme-atom-one-dark
 anseki.vscode-color
+AravindKumar.gherkin-indent
 avli.clojure
 bale.theme-darkplusplus
 bradgashler.htmltagwrap
@@ -48,3 +49,25 @@ ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 oderwat.indent-rainbow
 onemore.simplescript
+oysun.vuehelper
+pthorsson.vscode-jsp
+qinjia.view-in-browser
+rebornix.Ruby
+redhat.java
+shinnn.stylelint
+slevesque.shader
+steoates.autoimport
+vscjava.vscode-java-debug
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscodevim.vim
+xabikos.JavaScriptSnippets
+xabikos.ReactSnippets
+xaver.theme-tubbs
+Zignd.html-css-class-completion
+)
+for i in "${extensions[@]}"
+do
+	code --install-extension $i
+done
