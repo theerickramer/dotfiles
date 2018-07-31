@@ -61,7 +61,6 @@ vscjava.vscode-java-debug
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
-vscodevim.vim
 xabikos.JavaScriptSnippets
 xabikos.ReactSnippets
 xaver.theme-tubbs
