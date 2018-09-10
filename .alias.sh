@@ -26,6 +26,7 @@ alias stp="open -a 'Safari Technology Preview'"
 alias ff="open -a Firefox"
 alias ffd="open -a FirefoxDeveloperEdition"
 alias server="python -m SimpleHTTPServer 3000"
+alias rbm="open -a RubyMine"
 # system
 alias flush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
 alias lsa="ls -a"

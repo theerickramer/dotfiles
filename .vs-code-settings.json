@@ -170,15 +170,9 @@
   },
   "workbench.colorTheme": "EggplantParm",
   "workbench.statusBar.visible": true,
-  "files.associations": {
-    "*.jsp": "html"
-  },
   "prettier.singleQuote": true,
   "sublimeTextKeymap.promptV3Features": true,
   "[json]": {},
-  // "eslint.options": {
-  //   "configFile": "~/Desktop/.eslintrc.json"
-  // },
   "debug.allowBreakpointsEverywhere": true,
   "java.errors.incompleteClasspath.severity": "ignore",
   "emmet.syntaxProfiles": {
@@ -186,7 +180,6 @@
       "filters": "bem"
     }
   },
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": true
-	}
+  "workbench.editor.enablePreview": false,
+  "files.trimTrailingWhitespace": true
 }

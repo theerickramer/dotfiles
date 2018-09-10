@@ -42,6 +42,7 @@ Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-surround'
 Plugin 'mattn/webapi-vim'
 Plugin 'posva/vim-vue'
+Plugin 'ngmy/vim-rubocop'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -84,4 +85,5 @@ let g:NERDSpaceDelims = 1
 filetype indent on
 set filetype=html
 set smartindent
-
+" vim-rubocop
+map <C-r> :RuboCop<CR>
