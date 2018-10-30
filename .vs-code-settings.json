@@ -181,5 +181,6 @@
     }
   },
   "workbench.editor.enablePreview": false,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "terminal.external.osxExec": "iTerm.app"
 }

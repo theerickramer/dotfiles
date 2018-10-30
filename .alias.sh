@@ -10,6 +10,8 @@ alias ga="git add -A"
 alias gc="ga && git commit -m"
 alias gpl="git pull"
 alias gps="git push"
+alias gpsh="git push origin head"
+alias gpshf="git push origin head --force"
 alias gch="git checkout HEAD"
 alias gl="git log"
 # apps
