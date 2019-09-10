@@ -41,6 +41,7 @@ hollowtree.vue-snippets
 johnpapa.Angular2
 mohsen1.prettify-json
 ms-python.python
+ms-vscode.sublime-keybindings
 ms-vscode.Go
 ms-vscode.sublime-keybindings
 ms-vscode.Theme-MarkdownKit
