@@ -14,6 +14,7 @@ alias gpsh="git push origin head"
 alias gpshf="git push origin head --force"
 alias gch="git checkout HEAD"
 alias gl="git log"
+alias gcp="git cherry-pick"
 # apps
 alias vimrc="vim ~/.vimrc"
 alias pro="vim ~/.bash_profile"
@@ -34,3 +35,5 @@ alias flush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;"
 alias lsa="ls -a"
 # misc
 alias bs="browser-sync start --server --files"
+alias pg_ctl="/Users/erickramer/.asdf/installs/postgres/9.6.12/bin/pg_ctl -D /Users/erickramer/.asdf/installs/postgres/9.6.12/data -l logfile"
+alias be="bundle exec"
