@@ -26,23 +26,17 @@ Plugin 'VundleVim/Vundle.vim'
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
-Plugin 'kenwheeler/glow-in-the-dark-gucci-shark-bites-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
-Plugin 'elmcast/elm-vim'
-Plugin 'scrooloose/nerdtree'
 Plugin 'prettier/vim-prettier'
 Plugin 'mattn/emmet-vim'
-Plugin 'tpope/vim-commentary'
-Plugin 'docunext/closetag.vim'
-Plugin 'Shougo/vimproc.vim'
 Plugin 'highwaynoise/chuck.vim'
-Plugin 'scrooloose/nerdcommenter'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-surround'
 Plugin 'mattn/webapi-vim'
-Plugin 'posva/vim-vue'
-Plugin 'ngmy/vim-rubocop'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'preservim/nerdtree'
+Plugin 'preservim/nerdcommenter'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -73,11 +67,11 @@ let g:user_emmet_leader_key='<C-E>'
 let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('~/.dotfiles/.emmet-vim.config.json')), "\n"))
 " Prettier
 " when running at every change you may want to disable quickfix
-let g:prettier#quickfix_enabled = 0
-let g:prettier#autoformat = 0
+let g:prettier#quickfix_enabled = 1
+let g:prettier#autoformat = 1
 " auto Prettier on Insert
-" autocmd BufWritePre,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql PrettierAsync
-" NERDTree
+" autocmd BufWritePre,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql Prettier
+" NERDTree CTRL + n
 map <C-n> :NERDTreeToggle<CR>
 " nerdcommenter
 let g:NERDSpaceDelims = 1
@@ -85,5 +79,3 @@ let g:NERDSpaceDelims = 1
 filetype indent on
 set filetype=html
 set smartindent
-" vim-rubocop
-map <C-r> :RuboCop<CR>
